@@ -20,7 +20,11 @@ const Job = ({
   toggleState = false,
 }) => (
   <div className="job">
-    <h3 onClick={toggle} className="pointer" tabIndex={0}>
+    <h3
+      onClick={toggle}
+      className="pointer"
+      tabIndex={0}
+      aria-expanded={toggleState}>
       <span className="url">
         <a href={url} target="_blank">
           {alias}
@@ -49,7 +53,11 @@ const Job = ({
       {toggleState ? (
         <Flip duration={450} bottom>
           <p tabIndex={0}>{responsibilities}</p>
-          <p tabIndex={0} dangerouslySetInnerHTML={{ __html: description }} />
+          <p
+            role="region"
+            tabIndex={0}
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
         </Flip>
       ) : null}
     </div>
