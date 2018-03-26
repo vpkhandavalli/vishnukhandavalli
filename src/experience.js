@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Experience = () => (
   <ul id="experience">
@@ -6,28 +6,20 @@ const Experience = () => (
       <strong>10 years of commercial web development</strong> experience
     </li>
     <li>
+      Delivered BT Mobile using <strong>React JS</strong>
+    </li>
+    <li>
+      <strong>ES6+</strong> &gt; ES5/ES3 transpilation
+    </li>
+    <li>
+      Enzyme component <strong>unit testing</strong> paired with Mocha & Chai
+    </li>
+    <li>
       5 years experience managing web development teams (<strong>
         PDP, 1:1, L&D, HR
       </strong>)
     </li>
-    <li>
-      Qualified <strong>Agile and Scrum Certification</strong> and Training
-      completed with Mike Cohn
-    </li>
-    <li>
-      Delivered BT Mobile using <strong>React JS</strong>
-    </li>
-    <li>
-      Delivered an <strong>internal CMS & SPA experiences</strong> (Backstage,
-      Stage) to empower theAudience team and its clients
-    </li>
-    <li>
-      Advanced understanding of SEO and techniques to improve search ranking
-    </li>
-    <li>Experienced in newer front end techniques including</li>
-    <li>
-      <strong>ES6+</strong> &gt; ES5/ES3 transpilation
-    </li>
+
     <li>
       Task runners such as Gulp & Grunt & module bundler{" "}
       <strong>Webpack</strong>
@@ -36,7 +28,15 @@ const Experience = () => (
       <strong>SASS</strong> & LESS compiling, Bootstrap integration
     </li>
     <li>
-      Enzyme component <strong>unit testing</strong> paired with Mocha & Chai
+      Qualified <strong>Agile and Scrum Certification</strong> and Training
+      completed with Mike Cohn
+    </li>
+    <li>
+      Delivered an <strong>internal CMS & SPA experiences</strong> (Backstage,
+      Stage) to empower theAudience team and its clients
+    </li>
+    <li>
+      Advanced understanding of SEO and techniques to improve search ranking
     </li>
     <li>
       Past experience in developing PHP APIs using{" "}
@@ -80,6 +80,6 @@ const Experience = () => (
       <strong>stand-up, retrospectives, sizing</strong>
     </li>
   </ul>
-);
+)
 
-export default Experience;
+export default Experience

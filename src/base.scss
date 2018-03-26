@@ -1,0 +1,113 @@
+* {
+  font-family: "IBM Plex Serif", serif;
+  padding: 0;
+  margin: 0;
+  line-height: 1.8rem;
+  font-size: initial;
+}
+
+body {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  font-size: normal;
+}
+
+/*---- Elements ---- */
+
+a {
+  color: currentColor;
+  border-bottom: 1px dashed #999;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom-style: solid;
+  }
+}
+
+strong {
+  font-weight: bolder;
+  font-size: initial;
+  transition: font-size 20s;
+
+  &:hover {
+    font-size: large;
+  }
+}
+
+header {
+  font-weight: bold;
+  font-size: large;
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.75),
+    transparent
+  );
+}
+
+ul li {
+  margin-left: 2rem;
+  font-size: small;
+}
+
+p {
+  font-size: small;
+}
+
+/*---- Mouse effects ---- */
+
+.pointer {
+  cursor: pointer;
+}
+
+/*---- Toggle ---- */
+
+.toggle {
+  overflow: hidden;
+  height: 0;
+
+  &.open {
+    height: auto;
+  }
+}
+
+/*---- Content ---- */
+
+.job {
+  i {
+    font-variant: all-petite-caps;
+  }
+}
+
+/*---- Headers ---- */
+h1 {
+  font-size-adjust: 2;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size-adjust: 1;
+  }
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: large;
+}
+
+h3 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+h4 {
+  color: #c50;
+  font-size: medium;
+}

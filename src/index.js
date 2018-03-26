@@ -1,48 +1,59 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from "react"
+import ReactDOM from "react-dom"
 
-import Introduction from "./components/introduction";
-import Skills from "./components/skills/skills";
-import Jobs from "./components/jobs/jobs";
-import Experiences from "./components/experience";
-import Responsibilities from "./components/responsibilities";
+import Jobs from "./jobs/index"
+import Experiences from "./experience"
 
-import "./stylesheets/base.scss";
+import "./base.scss"
 
 const App = () => (
   <section className="app">
-    <h1>Aaron Lote</h1>
-    <hr />
-    <div className="row">
-      <div className="col-lg-8">
-        <Introduction />
-        <hr />
-        <Experiences />
-        <hr />
-        <h3>Recent Experience</h3>
-        <Jobs />
+    <div className="row bottom-xs">
+      <div className="col-xs bottom-xs">
+        <h1 tabIndex={0}>Aaron Lote</h1>
       </div>
-      <div className="col-lg-4 hidden-xs hidden-sm sidebar">
+      <div className="col-xs end-xs">
         <p>
-          <a href="https://www.github.com/azz0r" target="_blank">
+          <a href="https://www.github.com/azz0r" target="_blank" tabIndex={0}>
             github.com/azz0r
           </a>
         </p>
         <p>
-          <a href="mailto:mail@wuggawoo.com">mail@wuggawoo.com</a>
+          <a href="mailto:mail@wuggawoo.com" tabIndex={0}>
+            mail@wuggawoo.com
+          </a>
         </p>
-        <h3>Responsibilities</h3>
-        <Responsibilities />
-        <br />
-        <h3>Skills</h3>
-        <Skills />
+      </div>
+    </div>
+    <hr />
+    <div className="row">
+      <div className="col-xs-12 col-lg" tabIndex={0}>
+        <p>
+          I am a London based senior web developer with 10 years commercial
+          experience working with large, and small, companies to deliver high
+          quality web experiences to millions of customers.
+        </p>
+        <p>
+          With my varied experience I have a valuable ability to understand a
+          task from the perspective of a developer, a project manager or a stake
+          holder.
+        </p>
+        <p>
+          I’m experienced with implementing standards and processes to improve
+          workflows and productivity.
+        </p>
+        <hr />
+        <Experiences />
+      </div>
+      <div className="col-xs">
+        <Jobs />
       </div>
     </div>
   </section>
-);
+)
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"))
 
 if (module.hot) {
-  module.hot.accept();
+  module.hot.accept()
 }

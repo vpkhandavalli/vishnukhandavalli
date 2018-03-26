@@ -3,33 +3,32 @@
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development parcel src/index.html ",
-    "build": "cross-env NODE_ENV=production parcel build src/index.html --no-minify --public-url /",
+    "build":
+      "cross-env NODE_ENV=production parcel build src/index.html --no-minify --public-url /",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "autoprefixer": "7.2.1",
-    "babel-preset-react-app": "3.1.0",
-    "eslint-plugin-flowtype": "^2.40.1",
-    "parcel-bundler": "1.2.0",
+    "classnames": "^2.2.5",
     "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "react-dom": "16.2.0",
+    "react-reveal": "^1.2.1"
   },
   "postcss": {
     "modules": false,
     "plugins": {
       "autoprefixer": {
-        "browsers": [
-          ">1%",
-          "last 4 versions",
-          "Firefox ESR",
-          "not ie < 9"
-        ],
+        "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
         "flexbox": "no-2009"
       }
     }
   },
   "devDependencies": {
+    "babel-preset-react-app": "3.1.0",
+    "autoprefixer": "7.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint-plugin-flowtype": "^2.40.1",
     "cross-env": "^5.1.1",
+    "parcel-bundler": "^1.6.2",
     "gh-pages": "^1.1.0",
     "node-sass": "^4.7.2"
   },
