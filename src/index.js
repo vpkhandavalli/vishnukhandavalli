@@ -27,18 +27,18 @@ const App = () => (
     </div>
     <hr />
     <div className="row">
-      <div className="col-xs-12 col-lg" tabIndex={0}>
-        <p>
+      <div className="col-xs-12 col-lg">
+        <p tabIndex={0}>
           I am a London based senior web developer with 10 years commercial
           experience working with large, and small, companies to deliver high
           quality web experiences to millions of customers.
         </p>
-        <p>
+        <p tabIndex={0}>
           With my varied experience I have a valuable ability to understand a
           task from the perspective of a developer, a project manager or a stake
           holder.
         </p>
-        <p>
+        <p tabIndex={0}>
           I’m experienced with implementing standards and processes to improve
           workflows and productivity.
         </p>

@@ -20,17 +20,20 @@ const Job = ({
   toggleState = false,
 }) => (
   <div className="job">
-    <h3 onClick={toggle} tabIndex={0}>
+    <h3 onClick={toggle} className="pointer" tabIndex={0}>
       <span className="url">
         <a href={url} target="_blank">
           {alias}
         </a>
       </span>
       {" · "}
-      <span className="role">{role}</span>
+      <span className="role" tabIndex={0}>
+        {role}
+      </span>
       {" · "}
-      <span className="toggle pointer">
+      <span className="toggle">
         <i
+          tabIndex={0}
           className={classnames(
             "far",
             { "fa-minus-square": toggleState },
@@ -39,7 +42,7 @@ const Job = ({
         />
       </span>
     </h3>
-    <h4>
+    <h4 tabIndex={0}>
       {location} · {from} to {to}
     </h4>
     <div className={classnames("toggle", { open: toggleState })}>

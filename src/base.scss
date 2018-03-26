@@ -80,10 +80,17 @@ p {
 
 /*---- Content ---- */
 
-.job {
-  i {
-    font-variant: all-petite-caps;
-  }
+.job i {
+  font-variant: all-petite-caps;
+}
+
+.job-break {
+  background-image: linear-gradient(
+    13deg,
+    transparent,
+    rgba(255, 69, 0, 0.2),
+    transparent
+  );
 }
 
 /*---- Headers ---- */
