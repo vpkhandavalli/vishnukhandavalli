@@ -44,6 +44,7 @@ const App = () => (
         </p>
         <hr />
         <Experiences />
+        <br />
       </div>
       <div className="col-xs">
         <Jobs />
