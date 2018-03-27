@@ -73,6 +73,10 @@ p {
   overflow: hidden;
   height: 0;
 
+  .far {
+    font-size: x-large;
+  }
+
   &.open {
     height: auto;
   }
