@@ -1,7 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import classnames from "classnames"
-import Flip from "react-reveal/Flip"
 
 import withToggle from "../hoc/withToggle"
 
@@ -50,16 +49,12 @@ const Job = ({
       {location} · {from} to {to}
     </h4>
     <div className={classnames("toggle", { open: toggleState })}>
-      {toggleState ? (
-        <Flip duration={450} bottom>
           <p tabIndex={0}>{responsibilities}</p>
           <p
             role="region"
             tabIndex={0}
             dangerouslySetInnerHTML={{ __html: description }}
           />
-        </Flip>
-      ) : null}
     </div>
   </div>
 )

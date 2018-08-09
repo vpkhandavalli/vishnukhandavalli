@@ -73,6 +73,10 @@ p {
   overflow: hidden;
   height: 0;
 
+  @media print  {
+    height: auto;
+  }
+
   .far {
     font-size: x-large;
   }
