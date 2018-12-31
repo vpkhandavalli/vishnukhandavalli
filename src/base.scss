@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   line-height: 1.8rem;
-  font-size: initial;
 }
 
 body {
@@ -68,7 +67,6 @@ p {
 }
 
 /*---- Toggle ---- */
-
 .toggle {
   overflow: hidden;
   height: 0;
@@ -125,4 +123,14 @@ h3 {
 h4 {
   color: #c50;
   font-size: medium;
+}
+
+
+@media print {
+  .far {
+    display: none;
+  }
+  .job-break:nth-child(2n+2) {
+    page-break-after: always;
+  }
 }
