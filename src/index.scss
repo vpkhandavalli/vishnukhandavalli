@@ -27,11 +27,6 @@ a {
 strong {
   font-weight: bolder;
   font-size: initial;
-  transition: font-size 20s;
-
-  &:hover {
-    font-size: large;
-  }
 }
 
 header {

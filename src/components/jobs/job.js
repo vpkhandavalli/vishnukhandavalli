@@ -38,7 +38,7 @@ const Job = ({
 			{location} · {from} to {to}
 		</h4>
 		<div className={classnames('toggle', { open: toggleState })}>
-			<p tabIndex={0}>{responsibilities}</p>
+			<p tabIndex={0}><strong>{responsibilities}</strong></p>
           	<ul>{description.map((item, index) => <li key={index}>{item}</li>)}</ul>
 		</div>
 	</li>
