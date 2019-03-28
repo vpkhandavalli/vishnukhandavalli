@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ReactMarkdown from 'react-markdown';
 
 const Job = ({
 	description = '',
@@ -26,7 +27,13 @@ const Job = ({
 		</div>
 		<div className="item content">
 			{responsibilities}
-			<ul>{description.map((item, index) => <li key={index}>{item}</li>)}</ul>
+			<ul>
+				{description.map((input, index) => (
+					<li key={index}>
+						<ReactMarkdown source={input} />
+					</li>
+				))}
+			</ul>
 		</div>
 	</div>
 );

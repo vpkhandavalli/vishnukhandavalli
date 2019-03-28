@@ -19,5 +19,13 @@ export default function results() {
 	if (!results.data) {
 		return <h2>No results</h2>;
 	}
-	return <ul>{results.data.map((input) => <li tabIndex={0}><ReactMarkdown source={input} /></li>)}</ul>
+	return (
+		<ul>
+			{results.data.map((input) => (
+				<li tabIndex={0}>
+					<ReactMarkdown source={input} />
+				</li>
+			))}
+		</ul>
+	);
 }
