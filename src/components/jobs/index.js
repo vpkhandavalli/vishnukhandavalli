@@ -36,7 +36,7 @@ const overrideStyle = {
 
 export default function Jobs({ jobs }) {
 	return (
-		<ul className="jobs">
+		<>
 			{jobs.map(
 				({
 					description = '',
@@ -79,6 +79,6 @@ export default function Jobs({ jobs }) {
 					);
 				}
 			)}
-		</ul>
+		</>
 	);
 }

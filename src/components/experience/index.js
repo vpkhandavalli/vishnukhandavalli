@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
+import { Card, CardActionArea, CardContent } from '../card';
+
 export default function Experiences({ experiences }) {
 	return (
-		<ul>
-			{experiences.map((input, index) => (
-				<li key={index} tabIndex={0}>
-					<ReactMarkdown linkTarget='_blank' source={input} />
-				</li>
-			))}
-		</ul>
+		<Card>
+			<CardActionArea style={{ listStyle: 'inherit' }}>
+				{experiences.map((input, index) => (
+					<CardContent key={index}>
+						<ReactMarkdown linkTarget='_blank' source={input} />
+					</CardContent>
+				))}
+			</CardActionArea>
+		</Card>
 	);
 }
