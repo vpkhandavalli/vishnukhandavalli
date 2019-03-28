@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import Jobs from '../jobs';
 import Experience from '../experience';
 
+import experiences from '../../constants/experiences'
+import jobs from '../../constants/jobs'
+
 class App extends Component {
 	render() {
 		return [
@@ -40,11 +43,11 @@ class App extends Component {
 						and web dev leaders.
 					</p>
 					<br />
-					<Experience />
+					<Experience experiences={experiences} />
 					<br />
 				</div>
 				<div className="col-xs">
-					<Jobs />
+					<Jobs jobs={jobs} />
 				</div>
 			</div>
 		];

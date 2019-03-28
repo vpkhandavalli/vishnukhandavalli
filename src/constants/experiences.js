@@ -1,4 +1,4 @@
-[
+export default [
 	"**10 years of commercial web development** experience",
 	"Delivered [BT Mobile](https://www.bt.com/mobile/) using **React JS**",
 	"**ES6+** &gt; ES5/ES3 transpilation",

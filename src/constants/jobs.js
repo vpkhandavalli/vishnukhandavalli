@@ -1,4 +1,4 @@
-[{
+export default [{
   "id": 7,
   "alias": "GameSys",
   "url": "https://www.gamesyscorporate.com/",

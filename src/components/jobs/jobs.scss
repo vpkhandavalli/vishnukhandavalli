@@ -1,8 +1,13 @@
+.job-container {
+  list-style: none;
+}
+
 .job {
   margin-bottom: 1.5rem;
   font-size: inherit;
   box-shadow: 3px -1px 6px 3px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   display: flex;
+  list-style: none;
   overflow: hidden;
   justify-content: center;
   flex-direction: column;
