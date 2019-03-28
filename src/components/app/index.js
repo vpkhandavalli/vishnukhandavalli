@@ -16,12 +16,14 @@ class App extends Component {
 				<div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 end-lg end-md center-sm center-xs">
 					<p>
 						<a href="https://www.github.com/azz0r" rel="noopener noreferrer" target="_blank" tabIndex={0}>
-							github.com/azz0r
+							Github 
+						</a>  ·  <a href="https://www.linkedin.com/in/aaron-lote/" rel="noopener noreferrer"  target="_blank" tabIndex={0}>
+							LinkedIn
 						</a>
 					</p>
 					<p>
 						<a href="mailto:mail@wuggawoo.com" tabIndex={0}>
-							mail@wuggawoo.com
+							Contact me
 						</a>
 					</p>
 				</div>
