@@ -23,7 +23,7 @@ export default function results() {
 		<ul>
 			{results.data.map((input) => (
 				<li tabIndex={0}>
-					<ReactMarkdown source={input} />
+					<ReactMarkdown linkTarget='_blank' source={input} />
 				</li>
 			))}
 		</ul>

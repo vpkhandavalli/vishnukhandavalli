@@ -30,7 +30,7 @@ const Job = ({
 			<ul>
 				{description.map((input, index) => (
 					<li key={index}>
-						<ReactMarkdown source={input} />
+						<ReactMarkdown linkTarget='_blank' source={input} />
 					</li>
 				))}
 			</ul>
