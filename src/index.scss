@@ -3,17 +3,16 @@
   padding: 0;
   margin: 0;
   line-height: 1.8rem;
+  font-size: 1rem;
 }
 
 body {
   background-color: white;
   color: black;
   padding: 2rem;
-  font-size: normal;
 }
 
 /*---- Elements ---- */
-
 a {
   color: currentColor;
   border-bottom: 1px dashed #999;
@@ -26,12 +25,6 @@ a {
 
 strong {
   font-weight: bolder;
-  font-size: initial;
-}
-
-header {
-  font-weight: bold;
-  font-size: large;
 }
 
 hr {
@@ -47,12 +40,7 @@ hr {
 }
 
 ul li {
-  margin-left: 1rem;
-  font-size: small;
-}
-
-p {
-  font-size: small;
+  margin-left: 2rem;
 }
 
 /*---- Mouse effects ---- */
@@ -64,7 +52,10 @@ p {
 .toggle {
   overflow: hidden;
   height: 0;
-  font-size: x-large;
+
+  &.icon {
+    font-size: x-large;
+  }
 
   @media print  {
     height: auto;
@@ -77,39 +68,33 @@ p {
 
 /*---- Headers ---- */
 h1 {
-  font-size-adjust: 2;
-}
-
-@media (max-width: 960px) {
-  h1 {
-    font-size-adjust: 1;
-  }
-}
-
-h1 {
   font-size: xx-large;
 }
 
 h2 {
   font-weight: bolder;
-  font-size: large;
 }
 
 h3 {
-  font-size: medium;
   font-weight: bold;
 }
 
 h4 {
   color: #c50;
-  font-size: small;
 }
 
 @media print {
-  .far {
+  .toggle.icon {
     display: none;
   }
   .job-break:nth-child(2n+2) {
     page-break-after: always;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  ul li, p {
+    word-break: break-word;
+    margin-bottom: .5rem;
   }
 }

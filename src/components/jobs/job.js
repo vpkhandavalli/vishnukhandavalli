@@ -30,7 +30,7 @@ const Job = ({
 				{role}
 			</span>
 			{' · '}
-			<span className="toggle">
+			<span className="toggle icon">
 				{ toggleState ? '⊖' : '⊕'}
 			</span>
 		</h3>
