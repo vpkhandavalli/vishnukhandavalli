@@ -9,7 +9,7 @@ import jobs from '../../constants/jobs'
 class App extends Component {
 	render() {
 		return [
-			<div className="row bottom-xs">
+			<div key={1} className="row bottom-xs">
 				<div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 start-lg bottom-lg start-md center-sm center-xs middle-xs">
 					<h1 tabIndex={0}>Aaron Lote</h1>
 				</div>
@@ -26,7 +26,7 @@ class App extends Component {
 					</p>
 				</div>
 			</div>,
-			<div className="row">
+			<div key={2} className="row">
 				<div className="col-xs-12 col-lg">
 					<p tabIndex={0}>
 						I'm a London based senior web developer with 10 years commercial experience working companies of all sizes
