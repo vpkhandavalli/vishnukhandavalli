@@ -23,10 +23,10 @@ export default function Jobs() {
 		return <h2>No jobs</h2>;
 	}
 	return (
-		<ul className="jobs">
+		<section className="jobs">
 			{jobs.data.map((job) => {
 				return <Job key={job.id} {...job} />;
 			})}
-		</ul>
+		</section>
 	);
 }

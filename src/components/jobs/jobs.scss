@@ -1,11 +1,27 @@
-.jobs {
-    list-style: none;
-  
-    .job {
-      margin-bottom: 1.5rem;
-  
-      i {
-        font-variant: all-petite-caps;
-      }
-    }
+.job {
+  margin-bottom: 1.5rem;
+  font-size: inherit;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+
+  .item {
+    padding: 0 .5rem;
   }
+
+  .secondary-title {
+    background-color: #a8a6a6;
+  }
+
+  .title {
+    background-color: #503e73;
+  }
+
+  .content {
+    padding: 1rem;
+    color:  black;
+  }
+}
