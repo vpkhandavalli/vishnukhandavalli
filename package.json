@@ -1,42 +1,30 @@
 {
-  "name": "AaronLote-React",
-  "license": "MIT",
-  "scripts": {
-    "start": "cross-env NODE_ENV=development parcel src/index.html ",
-    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url /",
-    "deploy": "gh-pages -d dist"
-  },
+  "name": "aaronlote.com",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "classnames": "^2.2.5",
-    "react": "16.2.0",
-    "react-dom": "16.2.0"
-  },
-  "postcss": {
-    "modules": false,
-    "plugins": {
-      "autoprefixer": {
-        "browsers": [
-          ">1%",
-          "last 4 versions",
-          "Firefox ESR",
-          "not ie < 9"
-        ],
-        "flexbox": "no-2009"
-      }
-    }
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "autoprefixer": "7.2.1",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-react-app": "3.1.0",
-    "cross-env": "^5.1.1",
-    "eslint-plugin-flowtype": "^2.40.1",
-    "gh-pages": "^1.1.0",
-    "node-sass": "^4.7.2",
-    "parcel-bundler": "^1.6.2"
+    "node-sass": "^4.11.0",
+    "react-scripts": "2.1.8"
   },
-  "gh-pages-deploy": {
-    "staticpath": "dist",
-    "noprompt": true
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

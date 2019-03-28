@@ -52,7 +52,7 @@ hr {
 }
 
 ul li {
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-size: small;
 }
 
@@ -61,7 +61,6 @@ p {
 }
 
 /*---- Mouse effects ---- */
-
 .pointer {
   cursor: pointer;
 }
@@ -70,33 +69,15 @@ p {
 .toggle {
   overflow: hidden;
   height: 0;
+  font-size: x-large;
 
   @media print  {
     height: auto;
   }
 
-  .far {
-    font-size: x-large;
-  }
-
   &.open {
     height: auto;
   }
-}
-
-/*---- Content ---- */
-
-.job i {
-  font-variant: all-petite-caps;
-}
-
-.job-break {
-  background-image: linear-gradient(
-    13deg,
-    transparent,
-    rgba(255, 69, 0, 0.2),
-    transparent
-  );
 }
 
 /*---- Headers ---- */
@@ -108,6 +89,10 @@ h1 {
   h1 {
     font-size-adjust: 1;
   }
+}
+
+h1 {
+  font-size: xx-large;
 }
 
 h2 {
@@ -122,9 +107,8 @@ h3 {
 
 h4 {
   color: #c50;
-  font-size: medium;
+  font-size: small;
 }
-
 
 @media print {
   .far {
