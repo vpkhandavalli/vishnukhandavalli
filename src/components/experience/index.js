@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 
 import { Card, CardActionArea, CardContent } from '../card';
 
-const CardActionAreaStyle = { marginLeft: '2rem', listStyle: 'bullet' };
+const CardActionAreaStyle = { marginLeft: '2rem', listStyle: 'bullet',  marginBottom: '1.5rem' };
 
 export default function Experiences({ experiences }) {
 	return (

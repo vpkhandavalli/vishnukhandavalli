@@ -48,15 +48,15 @@ class App extends Component {
 				<section className="content">
 					<Card>
 						<CardActionArea>
-							<CardContent>
+							<CardContent style={{ marginBottom: '1.5rem'}}>
 								I'm a London based senior web developer with 10 years commercial experience working
 								companies of all sizes to deliver high quality web experiences to millions of customers.
 							</CardContent>
-							<CardContent>
+							<CardContent style={{ marginBottom: '1.5rem'}}>
 								With my varied experience I have a valuable ability to understand a task from the
 								perspective of a developer, a project manager or a stake holder.
 							</CardContent>
-							<CardContent>
+							<CardContent style={{ marginBottom: '1.5rem'}}>
 								I’m experienced with implementing standards and processes to improve workflows and
 								productivity for both developers and web dev leaders.
 							</CardContent>
