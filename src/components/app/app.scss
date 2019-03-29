@@ -1,5 +1,7 @@
 .title {
-	grid-area: tl;
+    grid-area: tl;
+    display: flex;
+    align-items: center;
 }
 
 .outlinks {
@@ -15,7 +17,8 @@
 }
 
 .app {
-	display: grid;
+    display: grid;
+    grid-gap: 1rem;
 	grid-template-columns: repeat(2, 50%);
 	grid-auto-rows: minmax(50px, auto);
 	grid-template-areas: 

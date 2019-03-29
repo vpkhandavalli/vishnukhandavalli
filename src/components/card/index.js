@@ -12,8 +12,8 @@ const defaultStyles = {
     },
     CardContent: {}
 }
-const Card = ({ children, style }) => <div tabIndex={0} style={Object.assign({}, defaultStyles.Card, style)}>{children}</div>;
-const CardActionArea = ({ children, style }) => <ul style={Object.assign({}, defaultStyles.CardActionArea, style)}>{children}</ul>;
-const CardContent = ({ children, style }) => <li tabIndex={0} style={Object.assign({}, defaultStyles.CardContent, style)}>{children}</li>;
+const Card = ({ children, style }) => <div tabIndex={0} style={{ ...Object.assign({}, defaultStyles.Card, style)}}>{children}</div>;
+const CardActionArea = ({ children, style }) => <ul style={{ ...Object.assign({}, defaultStyles.CardActionArea, style)}}>{children}</ul>;
+const CardContent = ({ children, style }) => <li tabIndex={0} style={{ ...Object.assign({}, defaultStyles.CardContent, style)}}>{children}</li>;
 
 export { Card, CardActionArea, CardContent };
