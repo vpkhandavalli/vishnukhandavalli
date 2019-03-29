@@ -6,7 +6,7 @@ import { Card, CardActionArea, CardContent } from '../card';
 export default function Experiences({ experiences }) {
 	return (
 		<Card>
-			<CardActionArea style={{ listStyle: 'inherit' }}>
+			<CardActionArea style={{ listStyle: 'bullet' }}>
 				{experiences.map((input, index) => (
 					<CardContent key={index}>
 						<ReactMarkdown linkTarget='_blank' source={input} />

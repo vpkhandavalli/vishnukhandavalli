@@ -1,0 +1,35 @@
+.title {
+	grid-area: tl;
+}
+
+.outlinks {
+	grid-area: ol;
+}
+
+.content {
+	grid-area: ct;
+}
+
+.jobs {
+	grid-area: js;
+}
+
+.app {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-auto-rows: minmax(50px, auto);
+	grid-template-areas: 
+		"tl ol"
+		"ct js";
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .app {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-areas: 
+            "tl"
+            "ol"
+            "ct"
+            "js"
+    }
+}

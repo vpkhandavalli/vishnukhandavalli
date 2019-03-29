@@ -10,9 +10,7 @@ const defaultStyles = {
     CardActionArea: {
         listStyle: 'none'
     },
-    CardContent: {
-        padding: '.2rem 0.5rem',
-    }
+    CardContent: {}
 }
 const Card = ({ children, style }) => <div tabIndex={0} style={Object.assign({}, defaultStyles.Card, style)}>{children}</div>;
 const CardActionArea = ({ children, style }) => <ul style={Object.assign({}, defaultStyles.CardActionArea, style)}>{children}</ul>;
