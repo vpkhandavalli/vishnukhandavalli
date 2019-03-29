@@ -3,13 +3,15 @@ import ReactMarkdown from 'react-markdown';
 
 import { Card, CardActionArea, CardContent } from '../card';
 
+const CardActionAreaStyle = { marginLeft: '2rem', listStyle: 'bullet' };
+
 export default function Experiences({ experiences }) {
 	return (
 		<Card>
-			<CardActionArea style={{ marginLeft: '2rem', listStyle: 'bullet' }}>
+			<CardActionArea style={CardActionAreaStyle}>
 				{experiences.map((input, index) => (
 					<CardContent key={index}>
-						<ReactMarkdown linkTarget='_blank' source={input} />
+						<ReactMarkdown linkTarget="_blank" source={input} />
 					</CardContent>
 				))}
 			</CardActionArea>

@@ -1,19 +1,7 @@
 import React from 'react';
 
-const defaultStyles = {
-    Card: {
-        display: 'flex',
-        overflow: 'hidden',
-        justifyContent: 'center',
-        flexDirection: 'column',
-    },
-    CardActionArea: {
-        listStyle: 'none'
-    },
-    CardContent: {}
-}
-const Card = ({ children, style }) => <div tabIndex={0} style={{ ...Object.assign({}, defaultStyles.Card, style)}}>{children}</div>;
-const CardActionArea = ({ children, style }) => <ul style={{ ...Object.assign({}, defaultStyles.CardActionArea, style)}}>{children}</ul>;
-const CardContent = ({ children, style }) => <li tabIndex={0} style={{ ...Object.assign({}, defaultStyles.CardContent, style)}}>{children}</li>;
+import { CardStyle, CardActionAreaStyle, CardContentStyle } from './styles';
 
-export { Card, CardActionArea, CardContent };
+export const Card = ({ children, style }) => <div tabIndex={0} style={{ ...Object.assign({}, CardStyle, style)}}>{children}</div>;
+export const CardActionArea = ({ children, style }) => <ul style={{ ...Object.assign({}, CardActionAreaStyle, style)}}>{children}</ul>;
+export const CardContent = ({ children, style }) => <li tabIndex={0} style={{ ...Object.assign({}, CardContentStyle, style)}}>{children}</li>;

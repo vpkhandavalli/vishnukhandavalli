@@ -37,9 +37,10 @@ const Rows = [
 
 export default function Jobs({ jobs }) {
 	return (
-		<>
+		<React.Fragment>
 			{jobs.map(
 				({
+					id = null,
 					description = '',
 					responsibilities = '',
 					alias = '',
@@ -50,7 +51,7 @@ export default function Jobs({ jobs }) {
 					to = ''
 				}) => {
 					return (
-						<Card style={CardStyle}>
+						<Card key={id} style={CardStyle}>
 							<CardActionArea style={Rows[0].CardActionArea}>
 								<CardContent>
 									<a href={url} target="_blank" rel="noopener noreferrer">
@@ -80,6 +81,6 @@ export default function Jobs({ jobs }) {
 					);
 				}
 			)}
-		</>
+		</React.Fragment>
 	);
 }
