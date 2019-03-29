@@ -21,7 +21,7 @@ const Rows = [
 	},
 	{
 		CardActionArea: {
-			backgroundColor: '#a8a6a6',
+			backgroundColor: '#585858',
 			color: 'white',
 			padding: '0 2rem'
 		}
