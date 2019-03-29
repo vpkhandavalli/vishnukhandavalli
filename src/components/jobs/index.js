@@ -61,7 +61,7 @@ export default function Jobs({ jobs }) {
 							</CardActionArea>
 							<CardActionArea style={Rows[1].CardActionArea}>
 								<CardContent>
-									{location} · {from} to {to}
+									{from} to {to} · {location}
 								</CardContent>
 							</CardActionArea>
 							<CardActionArea style={Rows[2].CardActionArea}>

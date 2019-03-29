@@ -6,7 +6,7 @@ export default [{
   "responsibilities": null,
   "from": "January 2017",
   "to": "April 2019",
-  "location": "Piccadilly Circus, London",
+  "location": "Piccadilly Circus",
   "description": [
     "Supporting the launch of [virgingames.com](https://www.virgingames.com), [jackpotjoy.com](https://www.jackpotjoy.com) and [Gamesys Spanish ventures](https://botemania.es)",
     "Daily pull request reviews, weekly tech considerations, tutoring junior developers, technically advising product owners",
@@ -22,7 +22,7 @@ export default [{
   "responsibilities": "Scrum Master, Recruitment Manager, Code Quality Manager, Project Manager",
   "from": "July 2014",
   "to": "December 2016",
-  "location": "St Pauls, London",
+  "location": "St Pauls",
   "description": [
     "Scrum Master, Recruitment Manager, Standards Manager & JavaScript Coder", "Extended AirBnB code standards and enforced lint rules into day to day development",
     "Managed the hiring process to help hire developers, project managers and content editors (12+ people)", "Technical consultation for internal, offshore and agency stake holders",
@@ -39,7 +39,7 @@ export default [{
   "responsibilities": "IT Support, Development & Project Advice",
   "from": "August 2013",
   "to": "May 2014",
-  "location": "Soho, London, UK & Shoreditch, London UK & Hollywood, Los Angeles",
+  "location": "Soho / Shoreditch / Hollywood",
   "description": [
     "Ensured that all users had a seamless experience during a transition between IT support companies.", 
     "Daily responsibilities included engaging with other tech companies, overseeing internal projects and providing top level feedback and guidance while developing internal apps.", 
@@ -54,7 +54,7 @@ export default [{
   "responsibilities": "Team Management, PHP & JS Code Sign Off, Project Specifications & Budget",
   "from": "March 2013",
   "to": "August 2013",
-  "location": "Shoreditch, London UK & Hollywood, Los Angeles",
+  "location": "Shoreditch / Hollywood",
   "description": [
     "Following the successful launch and support of an internal CMS, I was tasked with determining end user needs to create a feedback loop for writing solid project specifications for the development team.",
     "Generated detailed wireframes and specification documents based on user and stakeholder requirements. Also led high level pointing sessions and large scale planning to visually sell to stakeholders the expense of their decisions.", 
@@ -69,7 +69,7 @@ export default [{
   "responsibilities": "PHP Coder & Engineer, Team Manager, Test Manager & Scrum Master",
   "from": "March 2011",
   "to": "March 2013",
-  "location": "Soho, London, UK & Shoreditch, London UK & Hollywood, Los Angeles",
+  "location": "Soho / Shoreditch / Hollywood",
   "description": [
     "Tasked with creating a custom CMS that would enable a growing team to creating curated content for clients.", 
     "Given free reign to build a team housed in the WME offices, a id investor. Built a team of freelancers & worked tirelessly to develop a system with shifting priorities. Successfully delivered in 9 months, it became a vital part of growing the business, leading to a massive expansion for the UK branch of theAudience.", 
@@ -86,7 +86,7 @@ export default [{
   "url": "",
   "from": "September 2009",
   "to": "April 2011",
-  "location": "Soho, London, UK",
+  "location": "Soho",
   "description": [
     "Created a video on demand system using the Zend Framework and Wowza Media Service that allowed users to buy monthly memberships or per minute credits across multiple currencies. Achieved this in 5 months after given an 8 month timeline.", 
     "Created an affiliate management system that would give clients real time information on streaming information, achieved in 2 months. Was then tasked with creating a white label system for these clients, the result which was eventually bought by a large retail chain.", 
@@ -96,12 +96,12 @@ export default [{
 {
   "id": 1,
   "alias": "Marko Media",
-  "url": "https://www.markcomedia.com",
+  "url": "https://www.linkedin.com/company/markco-media/about/",
   "role": "Web Development Manager",
   "responsibilities": "Hiring, Team Management, PHP Code Base Engineering & Maintenance",
   "from": "January 2007",
   "to": "September 2009",
-  "location": "Croydon, London, UK",
+  "location": "Croydon",
   "description": [
     "As a PHP developer, excelled at delivering new features more rapidly than expected; was recognized as the stronger developer on a distributed team.", 
     "Was granted request to rewrite their entire framework using my own methodologies, as I expected their system would be unable to cope with the large amount of traffic the site was beginning to generate. Managed this remotely with a team in Rotherham while opening up an office in London. Was then tasked with building a team of 10 web developers, achieved in two months.", 
