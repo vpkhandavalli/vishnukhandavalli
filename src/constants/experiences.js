@@ -1,4 +1,4 @@
-export default [
+export const options = [
 	"**10 years of commercial web development** experience",
 	"Delivered [BT Mobile](https://www.bt.com/mobile/) using **React JS**",
 	"**ES6+** &gt; ES5/ES3 transpilation",
@@ -20,3 +20,5 @@ export default [
 	"Providing high level estimates for business critical projects",
 	"Running ceremonies such as **stand-up, retrospectives, sizing**"
 ]
+
+export default options;

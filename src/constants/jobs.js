@@ -1,4 +1,4 @@
-export default [{
+export const options = [{
   "id": 7,
   "alias": "GameSys",
   "url": "https://www.gamesyscorporate.com/",
@@ -41,8 +41,8 @@ export default [{
   "to": "May 2014",
   "location": "Soho / Shoreditch / Hollywood",
   "description": [
-    "Ensured that all users had a seamless experience during a transition between IT support companies.", 
-    "Daily responsibilities included engaging with other tech companies, overseeing internal projects and providing top level feedback and guidance while developing internal apps.", 
+    "Ensured that all users had a seamless experience during a transition between IT support companies.",
+    "Daily responsibilities included engaging with other tech companies, overseeing internal projects and providing top level feedback and guidance while developing internal apps.",
     "Built an in house systems that could streamline HR management internally."
   ]
 },
@@ -57,7 +57,7 @@ export default [{
   "location": "Shoreditch / Hollywood",
   "description": [
     "Following the successful launch and support of an internal CMS, I was tasked with determining end user needs to create a feedback loop for writing solid project specifications for the development team.",
-    "Generated detailed wireframes and specification documents based on user and stakeholder requirements. Also led high level pointing sessions and large scale planning to visually sell to stakeholders the expense of their decisions.", 
+    "Generated detailed wireframes and specification documents based on user and stakeholder requirements. Also led high level pointing sessions and large scale planning to visually sell to stakeholders the expense of their decisions.",
     "Continued to guide the new web development manager, coding daily with the team and reviewing code for project releases."
   ]
 },
@@ -71,10 +71,10 @@ export default [{
   "to": "March 2013",
   "location": "Soho / Shoreditch / Hollywood",
   "description": [
-    "Tasked with creating a custom CMS that would enable a growing team to creating curated content for clients.", 
-    "Given free reign to build a team housed in the WME offices, a id investor. Built a team of freelancers & worked tirelessly to develop a system with shifting priorities. Successfully delivered in 9 months, it became a vital part of growing the business, leading to a massive expansion for the UK branch of theAudience.", 
-    "Engineered a custom PHP API to create rapid prototypes and teamed it with Zend Framework codebase for the front-end initially.", 
-    "Switched the front-end to use cutting edge technology such as alpha BackboneJS, RequireJS, UnderscoreJS and mongoDB. Expanded the system into a client facing CMS as a id stake holder and develop", 
+    "Tasked with creating a custom CMS that would enable a growing team to creating curated content for clients.",
+    "Given free reign to build a team housed in the WME offices, a id investor. Built a team of freelancers & worked tirelessly to develop a system with shifting priorities. Successfully delivered in 9 months, it became a vital part of growing the business, leading to a massive expansion for the UK branch of theAudience.",
+    "Engineered a custom PHP API to create rapid prototypes and teamed it with Zend Framework codebase for the front-end initially.",
+    "Switched the front-end to use cutting edge technology such as alpha BackboneJS, RequireJS, UnderscoreJS and mongoDB. Expanded the system into a client facing CMS as a id stake holder and develop",
     "Daily tasks included managing the team development, developing both JS and PHP code, running daily stand ups & planning sessions and reporting back to the project manager."
   ]
 },
@@ -88,8 +88,8 @@ export default [{
   "to": "April 2011",
   "location": "Soho",
   "description": [
-    "Created a video on demand system using the Zend Framework and Wowza Media Service that allowed users to buy monthly memberships or per minute credits across multiple currencies. Achieved this in 5 months after given an 8 month timeline.", 
-    "Created an affiliate management system that would give clients real time information on streaming information, achieved in 2 months. Was then tasked with creating a white label system for these clients, the result which was eventually bought by a large retail chain.", 
+    "Created a video on demand system using the Zend Framework and Wowza Media Service that allowed users to buy monthly memberships or per minute credits across multiple currencies. Achieved this in 5 months after given an 8 month timeline.",
+    "Created an affiliate management system that would give clients real time information on streaming information, achieved in 2 months. Was then tasked with creating a white label system for these clients, the result which was eventually bought by a large retail chain.",
     "Daily tasks included installing Interspire Email Marketer and migrating Interspire Shopping Cart to Magento, a difficult 3 month project that taught me extensively on database engineering and table conversion."
   ]
 },
@@ -103,9 +103,10 @@ export default [{
   "to": "September 2009",
   "location": "Croydon",
   "description": [
-    "As a PHP developer, excelled at delivering new features more rapidly than expected; was recognized as the stronger developer on a distributed team.", 
-    "Was granted request to rewrite their entire framework using my own methodologies, as I expected their system would be unable to cope with the large amount of traffic the site was beginning to generate. Managed this remotely with a team in Rotherham while opening up an office in London. Was then tasked with building a team of 10 web developers, achieved in two months.", 
+    "As a PHP developer, excelled at delivering new features more rapidly than expected; was recognized as the stronger developer on a distributed team.",
+    "Was granted request to rewrite their entire framework using my own methodologies, as I expected their system would be unable to cope with the large amount of traffic the site was beginning to generate. Managed this remotely with a team in Rotherham while opening up an office in London. Was then tasked with building a team of 10 web developers, achieved in two months.",
     "Having built the team, was then given control of managing the entire framework and its future development to create exciting new features."
   ]
-}
-]
+}]
+
+export default options;
