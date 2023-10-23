@@ -49,7 +49,7 @@ class App extends Component {
 					<Card>
 						<CardActionArea>
 							<CardContent style={{ marginBottom: '1.5rem'}}>
-								I'm a London based senior web developer with 15 years commercial experience working
+								I'm a London based web developer with 15 years commercial experience working
 								companies of all sizes to deliver high quality web experiences to millions of customers.
 							</CardContent>
 							<CardContent style={{ marginBottom: '1.5rem'}}>
