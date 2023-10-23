@@ -39,8 +39,8 @@ class App extends Component {
 							</a>
 						</CardContent>
 						<CardContent style={{ listStyle: 'none' }}>
-							<a href="mailto:mail@wuggawoo.com" tabIndex={0}>
-								Contact me
+							<a href="mailto:aaron.lote@gmail.com" tabIndex={0}>
+								Email me
 							</a>
 						</CardContent>
 					</Card>
@@ -49,12 +49,12 @@ class App extends Component {
 					<Card>
 						<CardActionArea>
 							<CardContent style={{ marginBottom: '1.5rem'}}>
-								I'm a London based senior web developer with 10 years commercial experience working
+								I'm a London based senior web developer with 15 years commercial experience working
 								companies of all sizes to deliver high quality web experiences to millions of customers.
 							</CardContent>
 							<CardContent style={{ marginBottom: '1.5rem'}}>
 								With my varied experience I have a valuable ability to understand a task from the
-								perspective of a developer, a project manager or a stake holder.
+								perspective of a front or backend developer, a product owner or a scrum master.
 							</CardContent>
 							<CardContent style={{ marginBottom: '1.5rem'}}>
 								I’m experienced with implementing standards and processes to improve workflows and
