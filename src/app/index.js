@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import Jobs from '../jobs';
-import Experience from '../experience';
+import Jobs from '../components/jobs';
+import Experience from '../components/experience';
+import PersonalProjects from '../components/personal-projects';
 
-import experiences from '../../constants/experiences';
-import jobs from '../../constants/jobs';
-
-import { Card, CardActionArea, CardContent } from '../card';
+import experiences from '../constants/experiences';
+import jobs from '../constants/jobs';
+import { Card, CardActionArea, CardContent } from '../components/card';
 
 import './app.scss';
 
@@ -48,15 +48,15 @@ class App extends Component {
 				<section className="content">
 					<Card>
 						<CardActionArea>
-							<CardContent style={{ marginBottom: '1.5rem'}}>
+							<CardContent style={{ marginBottom: '1.5rem' }}>
 								I'm a London based web developer with 15 years commercial experience working
 								companies of all sizes to deliver high quality web experiences to millions of customers.
 							</CardContent>
-							<CardContent style={{ marginBottom: '1.5rem'}}>
+							<CardContent style={{ marginBottom: '1.5rem' }}>
 								With my varied experience I have a valuable ability to understand a task from the
 								perspective of a front or backend developer, a product owner or a scrum master.
 							</CardContent>
-							<CardContent style={{ marginBottom: '1.5rem'}}>
+							<CardContent style={{ marginBottom: '1.5rem' }}>
 								I’m experienced with implementing standards and processes to improve workflows and
 								productivity for both developers and web dev leaders.
 							</CardContent>
@@ -64,6 +64,7 @@ class App extends Component {
 					</Card>
 					<br />
 					<Experience experiences={experiences} />
+					<PersonalProjects />
 				</section>
 				<section className="jobs">
 					<Jobs jobs={jobs} />
