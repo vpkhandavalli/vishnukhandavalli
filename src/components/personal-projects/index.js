@@ -19,11 +19,11 @@ export function PersonalProjects() {
                     <img src={FedSimutator} alt="Fedsimutator" style={{ maxWidth: 300 }} />
                 </li>
                 <li>
-                    <a href="https://fedsimx.com" target="_blank" aria-description="Image of fedSimX office view in a browser window" rel="noopener noreferrer" tabIndex={0}>
+                    <a href="https://fedsimx.com" target="_blank" rel="noopener noreferrer" tabIndex={0}>
                         FedsimX
                     </a>
                     <br />
-                    <img src={FedSimX} alt="FedsimX" aria-description="Image of FedSimulator calendar view" style={{ maxWidth: 300 }} />
+                    <img src={FedSimX} alt="FedsimX" style={{ maxWidth: 300 }} />
                 </li>
             </ul>
         </>
