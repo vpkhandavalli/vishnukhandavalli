@@ -5,7 +5,7 @@ export const CardStyle = {
 	flexDirection: 'column'
 };
 export const CardActionAreaStyle = {
-	listStyle: 'none'
+	listStyle: 'none',
 };
 export const CardContentStyle = {
 	listStyleType: 'none',
