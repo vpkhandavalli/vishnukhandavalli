@@ -13,7 +13,7 @@ const CardStyle = {
 const Rows = [
 	{
 		CardActionArea: {
-			backgroundColor: '#503e73',
+			backgroundColor: '#999',
 			color: 'white',
 			padding: '0 2rem'
 		},
