@@ -7,4 +7,10 @@ export const CardStyle = {
 export const CardActionAreaStyle = {
 	listStyle: 'none'
 };
-export const CardContentStyle = {};
+export const CardContentStyle = {
+	listStyleType: 'none',
+};
+
+export const CardContentListStyle = {
+	listStyleType: 'square',
+};

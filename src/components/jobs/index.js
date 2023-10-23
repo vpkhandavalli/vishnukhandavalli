@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
-import { Card, CardActionArea, CardContent } from '../card';
+import { Card, CardListStyled, CardActionArea, CardContent } from '../card';
 
 const CardStyle = {
-		fontSize: 'inherit',
-		marginBottom: '2rem',
-		boxShadow: '3px -1px 6px 3px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) inset',
-		justifyContent: 'center',
-		flexDirection: 'column'
-	};
+	fontSize: 'inherit',
+	marginBottom: '2rem',
+	boxShadow: '3px -1px 6px 3px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) inset',
+	justifyContent: 'center',
+	flexDirection: 'column'
+};
 const Rows = [
 	{
 		CardActionArea: {
@@ -66,13 +66,13 @@ export default function Jobs({ jobs }) {
 								</CardContent>
 							</CardActionArea>
 							<CardActionArea style={Rows[2].CardActionArea}>
+								<ReactMarkdown linkTarget="_blank" source={responsibilities} />
 								<CardContent>
-									{responsibilities}
 									<ul>
 										{description.map((input, index) => (
-											<li key={index} tabIndex={0}>
+											<CardListStyled key={index} tabIndex={0}>
 												<ReactMarkdown linkTarget="_blank" source={input} />
-											</li>
+											</CardListStyled>
 										))}
 									</ul>
 								</CardContent>
