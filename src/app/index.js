@@ -15,7 +15,7 @@ class App extends Component {
 		return (
 			<div className="app">
 				<h1 className="title" tabIndex={0}>
-					Aaron Lote
+					Vishnu
 				</h1>
 				<section className="outlinks">
 					<Card style={{ alignItems: 'flex-end' }}>
